@@ -1,5 +1,5 @@
 const BASE_URL = "https://api.themoviedb.org/3/";
-const API_KEY = process.env.REACT_APP_TMBD_API_KEY;
+const API_KEY = "1e13a3400b3875a8b7581c6b7e64fa4d";
 
 const popularMoviesURL = `movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
 const trendingNowURL = `trending/movie/week?api_key=${API_KEY}`;

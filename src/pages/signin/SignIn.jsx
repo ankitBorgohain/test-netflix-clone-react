@@ -58,7 +58,7 @@ const SignIn = () => {
       );
       setIsUserLoading(false);
       navigate("/browse");
-      resetFormFields();x x 
+      resetFormFields(); 
     } catch (error) {
       switch (error.code) {
         case "auth/wrong-password":
